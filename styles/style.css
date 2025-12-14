@@ -3,6 +3,7 @@
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 90px 50px 96px;
+    height: 293px;
 }
 
 .header__menu {
@@ -32,7 +33,7 @@
 .header__logo {
     justify-self: center;
     display: block;
-    width: 135px;
+    width: 137px;
 }
 
 .header__logo-image {
@@ -56,7 +57,7 @@
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 757px;
+    height: 757px;
     padding: 165px 50px 51px;
     color: #fff;
 }
@@ -73,26 +74,30 @@
     z-index: 2;
     font-size: 100px;
     font-weight: 700;
-    line-height: 115px;
-    letter-spacing: 30px;
+    line-height: 120px;
     text-transform: uppercase;
 }
 
 .aligned-text {
     display: block;
+    letter-spacing: 25px;
 }
 
 .aligned-text_center {
     text-align: center;
 }
 
+.cover__text-middle {
+    margin-left: -50px;
+    margin-top: 5px;
+}
+
 .aligned-text_right {
     text-align: right;
-
 }
 
 .letter-spacing-extended {
-    letter-spacing: 15px;
+    letter-spacing: 17px;
 }
 
 .no-letter-spacing {
@@ -105,7 +110,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 145px;
+    margin-top: 125px;
     margin-left: 30px;
 }
 
@@ -188,7 +193,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
-    text-underline-offset: 5px;
+    text-underline-offset: 3px;
     position: relative;
     z-index: 2;
 }
@@ -213,7 +218,7 @@
 
 .about {
     margin-top: 146px;
-    width: 1052px;
+    width: 1060px;
     height: 595px;
     margin-left: auto;
     margin-right: auto;
@@ -245,7 +250,7 @@
 .about__title {
     font-size: 40px;
     text-transform: uppercase;
-    margin: 133px 0 100px;
+    margin: 134px 0 100px;
 }
 
 .about__text p {
@@ -253,11 +258,6 @@
     line-height: 24px;
     margin-bottom: 25px;
 }
-
-.about__text p:last-child {
-    margin-bottom: 0;
-}
-
 
 
 .footer {
