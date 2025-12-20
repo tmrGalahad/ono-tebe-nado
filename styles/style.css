@@ -33,7 +33,7 @@
 .header__logo {
     justify-self: center;
     display: block;
-    width: 137px;
+    width: 140px;
 }
 
 .header__logo-image {
@@ -74,23 +74,20 @@
     z-index: 2;
     font-size: 100px;
     font-weight: 700;
-    line-height: 120px;
+    line-height: 123px;
     text-transform: uppercase;
 }
 
 .aligned-text {
     display: block;
-    letter-spacing: 25px;
+    letter-spacing: 24px;
 }
 
 .aligned-text_center {
     text-align: center;
+    margin-right: 45px;
 }
 
-.cover__text-middle {
-    margin-left: -50px;
-    margin-top: 5px;
-}
 
 .aligned-text_right {
     text-align: right;
@@ -110,14 +107,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 125px;
+    margin-top: 122px;
     margin-left: 30px;
 }
 
 .cover__description-text {
-    font-size: 20px;
-    word-spacing: 22px;
-    letter-spacing: 0.7px;
+    font-size: 22px;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -217,13 +213,13 @@
 
 
 .about {
-    margin-top: 146px;
-    width: 1060px;
+    margin-top: 148px;
+    width: 1052px;
     height: 595px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 335px 1fr;
     gap: 25px;
 }
 
@@ -244,13 +240,18 @@
 }
 
 .about__logo-image {
-    width: 150px;
+    width: 147px;
 }
 
 .about__title {
     font-size: 40px;
     text-transform: uppercase;
-    margin: 134px 0 100px;
+    margin-top: 134px;
+}
+
+.about__text {
+    width: 690px;
+    margin-top: 100px;
 }
 
 .about__text p {
@@ -258,6 +259,13 @@
     line-height: 24px;
     margin-bottom: 25px;
 }
+.let1 {
+    letter-spacing: 0.01em;
+}
+.let2 {
+    letter-spacing: 0.02em;
+}
+
 
 
 .footer {
