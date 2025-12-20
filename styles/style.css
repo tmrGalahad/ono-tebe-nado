@@ -57,6 +57,7 @@
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
+    max-width: 1100px;
     height: 757px;
     padding: 165px 50px 51px;
     color: #fff;
@@ -80,21 +81,26 @@
 
 .aligned-text {
     display: block;
-    letter-spacing: 24px;
+    letter-spacing: 30px;
+    text-align: left;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
 }
 
 .aligned-text_center {
     text-align: center;
-    margin-right: 45px;
+    letter-spacing: 30px;
 }
-
 
 .aligned-text_right {
     text-align: right;
+    letter-spacing: 60px;
 }
 
-.letter-spacing-extended {
-    letter-spacing: 16px;
+.letter-spacing-right {
+    letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -189,7 +195,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
     position: relative;
     z-index: 2;
 }
